@@ -504,6 +504,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
+      <project path="kernel/Taber/Tablet" name="user2/kernel_source" remote="github" revision="jb4.3" />
+    <project path="device/Taber/Tablet" name="user2/device_source" remote="github" revision="jb4.3" />
+    <project path="device/Taber/Tablet-common" name="user2/device-common_source" remote="github" revision="jb4.3" />
+    <project path="vendor/Taber" name="user2/vendor" remote="github" revision="jb4.3" />
 
   <include name="snippets/cm.xml" />
 
